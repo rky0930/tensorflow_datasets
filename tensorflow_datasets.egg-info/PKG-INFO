@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: tensorflow-datasets
+Version: 1.0.2
+Summary: tensorflow/datasets is a library of datasets ready to use with TensorFlow.
+Home-page: http://github.com/tensorflow/datasets
+Author: Google Inc.
+Author-email: packages@tensorflow.org
+License: Apache 2.0
+Download-URL: https://github.com/tensorflow/datasets/tags
+Description: tensorflow/datasets is a library of public datasets ready to use with
+        TensorFlow. Each dataset definition contains the logic necessary to download and
+        prepare the dataset, as well as to read it into a model using the
+        `tf.data.Dataset` API.
+        
+        Usage outside of TensorFlow is also supported.
+        
+        See the README on GitHub for further documentation.
+        
+Keywords: tensorflow machine learning datasets
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Provides-Extra: tensorflow_gpu
+Provides-Extra: imagenet2012_corrupted
+Provides-Extra: cats_vs_dogs
+Provides-Extra: apache-beam
+Provides-Extra: groove
+Provides-Extra: svhn
+Provides-Extra: wikipedia
+Provides-Extra: tests
+Provides-Extra: tensorflow
+Provides-Extra: librispeech
+Provides-Extra: eurosat
+Provides-Extra: colorectal_histology
